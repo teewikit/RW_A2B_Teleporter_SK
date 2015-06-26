@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="A2B_Teleport.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Utilities\A2BTeleportData.cs">
+    <Files>
+      <File FileName="Utilities\A2BTeleportData.cs" Line="11" Column="1" />
+      <File FileName="Utilities\A2BResearchTeleport.cs" Line="13" Column="1" />
+      <File FileName="Components\BeltTeleporterComponent.cs" Line="171" Column="8" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

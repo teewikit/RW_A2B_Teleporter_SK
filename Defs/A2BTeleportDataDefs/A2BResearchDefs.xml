@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--
+		This was changed from being hard-coded in pre v0.11.0.0 to
+		being defined in defs to allow modders to more easily integrate
+		A2B into modpiles and users to tweak settings to their own
+		tastes.
+		
+		DO NOT CHANGE "defName"!
+		
+		Hints:
+		Base - How much without research
+		Offset - Added to base after research is complete
+		Research - All listed research must be complete
+		
+	-->
+	<A2BTeleportDataDef>
+		
+		<defName>A2BTeleport</defName>
+		
+		<!-- Watts per cell teleported -->
+		<TeleporterWattsPerCellBase>50</TeleporterWattsPerCellBase>
+		<TeleporterWattsPerCellOffset>-25</TeleporterWattsPerCellOffset>
+		
+		<!-- Degrees celcius per cell teleported -->
+		<TeleporterDegreesPerCellBase>0.45</TeleporterDegreesPerCellBase>
+		<TeleporterDegreesPerCellOffset>-0.225</TeleporterDegreesPerCellOffset>
+		
+		<TeleporterResearch>
+			<li>A2B_TeleporterHeat</li>
+		</TeleporterResearch>
+		
+	</A2BTeleportDataDef>
+
+</Defs>

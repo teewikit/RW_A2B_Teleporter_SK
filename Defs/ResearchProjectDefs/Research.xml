@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>A2B_TeleporterHeat</defName>
+		<label>[A2B] Teleporter Efficiency</label>
+		<description>An improved, highly efficient teleporter design reduces the heat generated and power used when teleporting items. No more flash fires!</description>
+		<totalCost>1000</totalCost>
+		<prerequisites>
+			<li>A2B2</li>
+		</prerequisites>
+	</ResearchProjectDef>
+    
+</Defs>
