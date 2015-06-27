@@ -18,17 +18,31 @@
 		
 		<defName>A2BTeleport</defName>
 		
+		<RequiredVersion>0.11.1</RequiredVersion>
+		
+		<!-- Watts necessary to keep the teleport online -->
+		<BasePowerConsumptionBase>200</BasePowerConsumptionBase>
+		<BasePowerConsumptionOffset>-50</BasePowerConsumptionOffset>
+		
 		<!-- Watts per cell teleported -->
-		<TeleporterWattsPerCellBase>50</TeleporterWattsPerCellBase>
-		<TeleporterWattsPerCellOffset>-25</TeleporterWattsPerCellOffset>
+		<WattsPerCellBase>50</WattsPerCellBase>
+		<WattsPerCellOffset>-25</WattsPerCellOffset>
 		
 		<!-- Degrees celcius per cell teleported -->
-		<TeleporterDegreesPerCellBase>0.45</TeleporterDegreesPerCellBase>
-		<TeleporterDegreesPerCellOffset>-0.225</TeleporterDegreesPerCellOffset>
+		<DegreesPerCellBase>0.45</DegreesPerCellBase>
+		<DegreesPerCellOffset>-0.225</DegreesPerCellOffset>
 		
-		<TeleporterResearch>
+		<!-- Number of teleporter channels available -->
+		<NumTeleporterChannelsBase>8</NumTeleporterChannelsBase>
+		<NumTeleporterChannelsOffset>8</NumTeleporterChannelsOffset>
+		
+		<!-- Teleporter speed multiplier -->
+		<SpeedMultiplierBase>0.5</SpeedMultiplierBase>
+		<SpeedMultiplierOffset>0.3</SpeedMultiplierOffset>
+		
+		<Research>
 			<li>A2B_TeleporterHeat</li>
-		</TeleporterResearch>
+		</Research>
 		
 	</A2BTeleportDataDef>
 

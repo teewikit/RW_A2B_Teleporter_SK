@@ -1,25 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using RimWorld;
-using UnityEngine;
+﻿using System.Collections.Generic;
 using Verse;
-using Verse.AI;
-using Verse.Sound;
 
 namespace A2B_Teleport
 {
 	public class A2BTeleportDataDef : Def
 	{
-		// Teleporter data
-		public int				TeleporterWattsPerCellBase;
-		public int				TeleporterWattsPerCellOffset;
-		public float			TeleporterDegreesPerCellBase;
-		public float			TeleporterDegreesPerCellOffset;
-		public List< string >	TeleporterResearch;
+        // Teleporter data
+        public float            BasePowerConsumptionBase;
+        public float            BasePowerConsumptionOffset;
 
+		public int				WattsPerCellBase;
+        public int				WattsPerCellOffset;
+
+        public float			DegreesPerCellBase;
+		public float			DegreesPerCellOffset;
+
+        public List<string>	    Research;
+
+        public int              NumTeleporterChannelsBase;
+        public int              NumTeleporterChannelsOffset;
+
+        public float            SpeedMultiplierBase;
+        public float            SpeedMultiplierOffset;
+
+        public string           RequiredVersion;
 	}
 
 }
