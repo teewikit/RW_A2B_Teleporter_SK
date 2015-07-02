@@ -1,10 +1,12 @@
 ﻿<Properties StartupItem="A2B_Teleport.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Utilities\A2BTeleportData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Components\BeltSenderComponent.cs">
     <Files>
-      <File FileName="Utilities\A2BTeleportData.cs" Line="11" Column="1" />
-      <File FileName="Utilities\A2BResearchTeleport.cs" Line="13" Column="1" />
-      <File FileName="Components\BeltTeleporterComponent.cs" Line="171" Column="8" />
+      <File FileName="Components\BeltTeleporterComponent.cs" Line="1" Column="1" />
+      <File FileName="Components\BeltSenderComponent.cs" Line="146" Column="56" />
+      <File FileName="Components\BeltReceiverComponent.cs" Line="1" Column="1" />
+      <File FileName="Utilities\A2BTeleportData.cs" Line="1" Column="1" />
+      <File FileName="Utilities\A2BTeleportResearch.cs" Line="134" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -29,7 +29,7 @@
 		<tickerType>Normal</tickerType>
 
 		<designationCategory>ConveyorOptions</designationCategory>
-		<researchPrerequisite>A2B2</researchPrerequisite>
+		<researchPrerequisite>A2B_Teleporters</researchPrerequisite>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase">
@@ -47,7 +47,7 @@
 			<Flammability>1.0</Flammability>
 			<Beauty>0</Beauty>
 		</statBases>
-		<description>Teleports items in a straight line. Requires a receiver to function!</description>
+		<description>Teleports items to the closest available receiver on the same channel.</description>
 		<comps>
 			<li>
 				<compClass>CompPowerTrader</compClass>
@@ -68,8 +68,8 @@
 		</comps>
 		<size>(2,1)</size>
 		<costList>
-			<Steel>100</Steel>
-			<Plasteel>50</Plasteel>
+			<Steel>50</Steel>
+			<Plasteel>100</Plasteel>
 		</costList>
 		<designationHotkey>T</designationHotkey>
 	</ThingDef>
@@ -89,7 +89,7 @@
 			<Flammability>1.0</Flammability>
 			<Beauty>0</Beauty>
 		</statBases>
-		<description>Receives items from a teleporter. Needs to be built with identical orientation!</description>
+		<description>Receives items from a teleporter.  Be sure to use matching channels.</description>
 		<comps>
 			<li>
 				<compClass>CompPowerTrader</compClass>
@@ -110,8 +110,8 @@
 		</comps>
 		<size>(2,1)</size>
 		<costList>
-			<Steel>100</Steel>
-			<Plasteel>50</Plasteel>
+			<Steel>50</Steel>
+			<Plasteel>100</Plasteel>
 		</costList>
 		<designationHotkey>R</designationHotkey>
 	</ThingDef>

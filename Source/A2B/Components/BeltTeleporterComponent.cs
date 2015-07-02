@@ -18,12 +18,8 @@ namespace A2B_Teleport
                 return _chan;
             }
             protected set {
-                _chan = (A2BTeleportData.NumTeleporterChannels + value) % A2BTeleportData.NumTeleporterChannels;
+				_chan = (A2BTeleportData.Channels.NumTeleporterChannels + value) % A2BTeleportData.Channels.NumTeleporterChannels;
             }
-        }
-
-        public override int BeltSpeed {
-            get { return (int) (A2BData.BeltSpeed.TicksToMove / A2BTeleportData.SpeedMultiplier); }
         }
 
         protected class ChannelGizmo : Command {
