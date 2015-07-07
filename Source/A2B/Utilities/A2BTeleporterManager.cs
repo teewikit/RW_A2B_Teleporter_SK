@@ -41,7 +41,7 @@ namespace A2B_Teleport {
         }
 
         public static Receiver GetReceiverAtPos(IntVec3 pos) {
-            return pos.GetBeltComponent(Level.Both) as Receiver;
+            return pos.GetBeltComponent() as Receiver;
         }
 
         public static IEnumerable<Sender> GetSenders() {
@@ -53,7 +53,7 @@ namespace A2B_Teleport {
         }
 
         public static Sender GetSenderAtPos(IntVec3 pos) {
-            return pos.GetBeltComponent(Level.Both) as Sender;
+            return pos.GetBeltComponent() as Sender;
         }
     }
 }

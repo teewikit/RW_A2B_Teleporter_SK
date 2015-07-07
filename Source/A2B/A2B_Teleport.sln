@@ -84,7 +84,7 @@ Global
 		$5.inheritsSet = VisualStudio
 		$5.inheritsScope = text/plain
 		$5.scope = text/plain
-		version = 0.11.1.0
+		version = 0.11.2.0
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -18,7 +18,7 @@
 		<defName>A2BTeleport</defName>
 		
 		<!-- Required Core version -->
-		<RequiredVersion>0.11.1</RequiredVersion>
+		<RequiredVersion>0.11.2</RequiredVersion>
 		
 		<!-- Watts necessary to teleport -->
 		<BasePowerConsumptionBase>200</BasePowerConsumptionBase>
