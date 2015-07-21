@@ -69,7 +69,7 @@
 		<size>(2,1)</size>
 		<costList>
             		<Parts_Steel>2</Parts_Steel>
-			<Parts_Vancidium>2</Parts_Vancidium>
+			<Parts_vancidium>2</Parts_vancidium>
 	    		<Mechanism>4</Mechanism>
            		<Microchips>2</Microchips>
             		<Glass>2</Glass>
@@ -114,7 +114,7 @@
 		<size>(2,1)</size>
 		<costList>
             		<Parts_Steel>2</Parts_Steel>
-			<Parts_Vancidium>2</Parts_Vancidium>
+			<Parts_vancidium>2</Parts_vancidium>
 	    		<Mechanism>4</Mechanism>
            		<Microchips>2</Microchips>
             		<Glass>2</Glass>
